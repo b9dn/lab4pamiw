@@ -17,7 +17,7 @@ namespace P07Film.DataSeeder
             var filmFaker = new Faker<Film>("pl")
                 .UseSeed(56789)
                 .RuleFor(x => x.Title, x => x.Lorem.Word())
-                .RuleFor(x => x.Description, x => x.Commerce.ProductDescription())
+                .RuleFor(x => x.Director, x => x.Name.FullName())
                 .RuleFor(x => x.Id, x => filmId++)
                 .RuleFor(x => x.Barcode, x => x.Commerce.Ean13().Substring(12))
                 .RuleFor(x => x.Price, x => x.Random.Double(1, 1000))

@@ -1,0 +1,466 @@
+curl -X 'GET' \
+  'http://localhost:5093/api/Film' \
+  -H 'accept: text/plain'
+
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "id",
+      "director": "Judyta Niedzielski",
+      "barcode": "7",
+      "price": 947.6,
+      "releaseDate": "2023-03-22T04:03:32.9873668"
+    },
+    {
+      "id": 2,
+      "title": "eos",
+      "director": "Weronika Jaros",
+      "barcode": "0",
+      "price": 515.59,
+      "releaseDate": "2023-02-17T02:35:58.3340158"
+    },
+    {
+      "id": 3,
+      "title": "ratione",
+      "director": "Olga Dudek",
+      "barcode": "4",
+      "price": 987.74,
+      "releaseDate": "2023-09-25T14:07:51.7294688"
+    },
+    {
+      "id": 4,
+      "title": "unde",
+      "director": "Rajnold Wójtowicz",
+      "barcode": "9",
+      "price": 944.9,
+      "releaseDate": "2023-04-15T14:30:31.3650676"
+    },
+    {
+      "id": 5,
+      "title": "aspernatur",
+      "director": "Lea Stanek",
+      "barcode": "0",
+      "price": 419.5,
+      "releaseDate": "2023-04-30T03:50:08.5996117"
+    },
+    {
+      "id": 6,
+      "title": "officiis",
+      "director": "Anna Mroczek",
+      "barcode": "4",
+      "price": 511.75,
+      "releaseDate": "2023-04-03T11:38:43.1497685"
+    },
+    {
+      "id": 7,
+      "title": "aut",
+      "director": "Gerald Gajda",
+      "barcode": "0",
+      "price": 772.39,
+      "releaseDate": "2023-04-21T02:44:58.5694465"
+    },
+    {
+      "id": 8,
+      "title": "voluptatibus",
+      "director": "Lilianna Kogut",
+      "barcode": "5",
+      "price": 379.65,
+      "releaseDate": "2023-05-17T06:39:14.8059523"
+    },
+    {
+      "id": 9,
+      "title": "aut",
+      "director": "Ireneusz Graczyk",
+      "barcode": "2",
+      "price": 91.54,
+      "releaseDate": "2023-09-22T17:50:38.3156585"
+    },
+    {
+      "id": 10,
+      "title": "ut",
+      "director": "Nina Domagała",
+      "barcode": "1",
+      "price": 153.86,
+      "releaseDate": "2023-01-11T17:49:17.1017794"
+    },
+    {
+      "id": 11,
+      "title": "amet",
+      "director": "Gilbert Michałek",
+      "barcode": "8",
+      "price": 395.18,
+      "releaseDate": "2023-02-22T19:38:36.8552218"
+    },
+    {
+      "id": 12,
+      "title": "dicta",
+      "director": "Maurycy Grześkowiak",
+      "barcode": "5",
+      "price": 910.07,
+      "releaseDate": "2023-10-18T16:28:50.779341"
+    },
+    {
+      "id": 13,
+      "title": "voluptas",
+      "director": "Tymoteusz Mazurek",
+      "barcode": "4",
+      "price": 809.63,
+      "releaseDate": "2023-06-14T10:45:45.6102424"
+    },
+    {
+      "id": 14,
+      "title": "sed",
+      "director": "Arnold Wolski",
+      "barcode": "2",
+      "price": 49.17,
+      "releaseDate": "2023-05-29T02:34:14.9076693"
+    },
+    {
+      "id": 15,
+      "title": "dolores",
+      "director": "Klara Tomaszewski",
+      "barcode": "0",
+      "price": 984.27,
+      "releaseDate": "2023-08-19T07:21:54.1820395"
+    },
+    {
+      "id": 16,
+      "title": "delectus",
+      "director": "Salomon Żak",
+      "barcode": "0",
+      "price": 476.82,
+      "releaseDate": "2023-03-19T13:43:10.9111572"
+    },
+    {
+      "id": 17,
+      "title": "maxime",
+      "director": "Krzysztof Zalewski",
+      "barcode": "5",
+      "price": 104.97,
+      "releaseDate": "2023-01-09T02:06:29.0416382"
+    },
+    {
+      "id": 18,
+      "title": "laudantium",
+      "director": "Emil Biernat",
+      "barcode": "9",
+      "price": 539.84,
+      "releaseDate": "2023-04-12T03:14:10.9207982"
+    },
+    {
+      "id": 19,
+      "title": "neque",
+      "director": "Walentyna Barański",
+      "barcode": "2",
+      "price": 646.07,
+      "releaseDate": "2023-10-27T18:28:34.6457361"
+    },
+    {
+      "id": 20,
+      "title": "quo",
+      "director": "Serafina Krukowski",
+      "barcode": "5",
+      "price": 434.03,
+      "releaseDate": "2022-11-13T03:26:30.2883523"
+    },
+    {
+      "id": 21,
+      "title": "iure",
+      "director": "Józefina Borowski",
+      "barcode": "3",
+      "price": 526.6,
+      "releaseDate": "2023-04-02T04:20:00.5270297"
+    },
+    {
+      "id": 22,
+      "title": "ut",
+      "director": "Oliwier Cygan",
+      "barcode": "9",
+      "price": 205.23,
+      "releaseDate": "2023-05-14T12:29:12.2518085"
+    },
+    {
+      "id": 23,
+      "title": "necessitatibus",
+      "director": "Herman Miśkiewicz",
+      "barcode": "3",
+      "price": 445.04,
+      "releaseDate": "2023-10-26T21:27:04.2918285"
+    },
+    {
+      "id": 24,
+      "title": "rerum",
+      "director": "Gedeon Jędrzejczak",
+      "barcode": "1",
+      "price": 656.57,
+      "releaseDate": "2023-08-03T02:34:21.2588255"
+    },
+    {
+      "id": 25,
+      "title": "et",
+      "director": "Joanna Zalewski",
+      "barcode": "2",
+      "price": 435.81,
+      "releaseDate": "2023-03-30T00:20:59.820511"
+    },
+    {
+      "id": 26,
+      "title": "quia",
+      "director": "Szymon Wilczyński",
+      "barcode": "6",
+      "price": 278.68,
+      "releaseDate": "2023-03-02T03:08:08.1326907"
+    },
+    {
+      "id": 27,
+      "title": "minus",
+      "director": "Szymon Lipka",
+      "barcode": "0",
+      "price": 290.11,
+      "releaseDate": "2023-06-17T12:11:08.6005694"
+    },
+    {
+      "id": 28,
+      "title": "in",
+      "director": "Ernest Sobczak",
+      "barcode": "4",
+      "price": 921.95,
+      "releaseDate": "2023-03-06T17:45:08.4623532"
+    },
+    {
+      "id": 29,
+      "title": "eius",
+      "director": "Laura Zaborowski",
+      "barcode": "6",
+      "price": 568.04,
+      "releaseDate": "2023-02-06T06:37:37.7979008"
+    },
+    {
+      "id": 30,
+      "title": "sed",
+      "director": "August Malicki",
+      "barcode": "0",
+      "price": 646.86,
+      "releaseDate": "2023-10-11T05:44:31.7234921"
+    },
+    {
+      "id": 31,
+      "title": "quod",
+      "director": "Koralia Kasprzyk",
+      "barcode": "4",
+      "price": 384.48,
+      "releaseDate": "2023-07-23T02:01:43.6954187"
+    },
+    {
+      "id": 32,
+      "title": "odio",
+      "director": "Teodor Kołodziejczyk",
+      "barcode": "5",
+      "price": 147.5,
+      "releaseDate": "2023-07-12T07:16:19.4935508"
+    },
+    {
+      "id": 33,
+      "title": "distinctio",
+      "director": "Jan Grudzień",
+      "barcode": "2",
+      "price": 453.69,
+      "releaseDate": "2023-05-14T01:28:55.1273456"
+    },
+    {
+      "id": 34,
+      "title": "sint",
+      "director": "Filemon Gutowski",
+      "barcode": "1",
+      "price": 173.21,
+      "releaseDate": "2023-06-22T08:47:29.1599288"
+    },
+    {
+      "id": 35,
+      "title": "est",
+      "director": "Nazariusz Dudzik",
+      "barcode": "8",
+      "price": 812.06,
+      "releaseDate": "2023-02-09T15:10:15.6616433"
+    },
+    {
+      "id": 36,
+      "title": "expedita",
+      "director": "Nestor Wojciechowski",
+      "barcode": "2",
+      "price": 957.11,
+      "releaseDate": "2023-05-17T21:28:33.5222882"
+    },
+    {
+      "id": 37,
+      "title": "ullam",
+      "director": "Gloria Januszewski",
+      "barcode": "4",
+      "price": 198.1,
+      "releaseDate": "2023-08-22T06:26:17.3685487"
+    },
+    {
+      "id": 38,
+      "title": "neque",
+      "director": "Luiza Iwański",
+      "barcode": "5",
+      "price": 516.93,
+      "releaseDate": "2023-04-05T19:20:01.5469814"
+    },
+    {
+      "id": 39,
+      "title": "repellendus",
+      "director": "Aleksander Marcinkowski",
+      "barcode": "4",
+      "price": 831.88,
+      "releaseDate": "2023-09-11T20:02:43.9970577"
+    },
+    {
+      "id": 40,
+      "title": "quam",
+      "director": "Józefina Pytel",
+      "barcode": "1",
+      "price": 750.17,
+      "releaseDate": "2023-07-19T02:33:02.7026764"
+    },
+    {
+      "id": 41,
+      "title": "illum",
+      "director": "Anna Podgórski",
+      "barcode": "5",
+      "price": 465.2,
+      "releaseDate": "2023-01-08T01:31:47.3832041"
+    },
+    {
+      "id": 42,
+      "title": "aut",
+      "director": "Aleksander Szcześniak",
+      "barcode": "7",
+      "price": 655.15,
+      "releaseDate": "2023-10-27T09:25:50.4490602"
+    },
+    {
+      "id": 43,
+      "title": "sit",
+      "director": "Ewelina Dróżdż",
+      "barcode": "8",
+      "price": 627.66,
+      "releaseDate": "2022-12-30T01:56:26.738617"
+    },
+    {
+      "id": 44,
+      "title": "aut",
+      "director": "Wilhelmina Wróbel",
+      "barcode": "2",
+      "price": 156.08,
+      "releaseDate": "2023-03-31T11:28:48.2791013"
+    },
+    {
+      "id": 45,
+      "title": "et",
+      "director": "Damian Jóźwiak",
+      "barcode": "9",
+      "price": 505.61,
+      "releaseDate": "2023-06-23T11:00:29.8943103"
+    },
+    {
+      "id": 46,
+      "title": "nesciunt",
+      "director": "Ignacy Rybicki",
+      "barcode": "3",
+      "price": 423.39,
+      "releaseDate": "2023-10-16T22:22:52.1176428"
+    },
+    {
+      "id": 47,
+      "title": "sed",
+      "director": "Antoni Kaczmarczyk",
+      "barcode": "9",
+      "price": 906.53,
+      "releaseDate": "2023-04-28T18:09:46.6995828"
+    },
+    {
+      "id": 48,
+      "title": "dignissimos",
+      "director": "Pantaleon Krzyżanowski",
+      "barcode": "3",
+      "price": 753.14,
+      "releaseDate": "2023-07-14T16:03:45.8619365"
+    },
+    {
+      "id": 49,
+      "title": "vitae",
+      "director": "Ksawery Florczak",
+      "barcode": "5",
+      "price": 848.06,
+      "releaseDate": "2023-03-18T22:27:29.2887094"
+    },
+    {
+      "id": 50,
+      "title": "voluptas",
+      "director": "Hipolit Żurawski",
+      "barcode": "2",
+      "price": 390.59,
+      "releaseDate": "2023-10-22T10:11:28.5613743"
+    }
+  ],
+  "success": true,
+  "message": "Ok",
+  "codeError": 200
+}
+
+curl -X 'PUT' \
+  'http://localhost:5093/api/Film/UpdateFilm' \
+  -H 'accept: text/plain' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "id": 90,
+  "title": "sss",
+  "director": "asd
+  "barcode":"54"
+  "price": 40,
+  "releaseDate": "2023-11-08T09:32:33.424Z"
+}'
+
+{
+  "id": 90,
+  "title": "sss",
+  "director": "asd
+  "barcode":"54"
+  "price": 40,
+  "releaseDate": "2023-11-08T09:32:33.424Z"
+}
+
+curl -X 'POST' \
+  'http://localhost:5093/api/Film/CreateFilm' \
+  -H 'accept: text/plain' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "id": 46,
+  "title": "title"
+  "director": "dir",
+  "barcode": "456",
+  "price": 123,
+  "releaseDate": "2023-11-08T09:55:44.162Z"
+}'
+
+{
+  "id": 46,
+  "title": "title"
+  "director": "dir",
+  "barcode": "456",
+  "price": 123,
+  "releaseDate": "2023-11-08T09:55:44.162Z"
+    },
+
+curl -X 'DELETE' \
+  'http://localhost:5093/api/Film/DeleteFilm/46' \
+  -H 'accept: text/plain'
+
+{
+  "data": true,
+  "success": true,
+  "message": null,
+  "codeError": 200
+}

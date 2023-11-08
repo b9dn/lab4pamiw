@@ -26,8 +26,8 @@
             <TextBlock Text="Title:" Grid.Row="0" Grid.Column="0"/>
             <TextBox Text="{Binding Title}" Grid.Row="0" Grid.Column="1"/>
 
-            <TextBlock Text="Description:" Grid.Row="1" Grid.Column="0"/>
-            <TextBox Text="{Binding Description}" Grid.Row="1" Grid.Column="1"/>
+            <TextBlock Text="Director:" Grid.Row="1" Grid.Column="0"/>
+            <TextBox Text="{Binding Director}" Grid.Row="1" Grid.Column="1"/>
 
             <TextBlock Text="Barcode:" Grid.Row="2" Grid.Column="0"/>
             <TextBox Text="{Binding Barcode}" Grid.Row="2" Grid.Column="1"/>

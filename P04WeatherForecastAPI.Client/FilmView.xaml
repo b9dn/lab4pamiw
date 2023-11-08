@@ -53,7 +53,7 @@
                                 <Label Content="{Binding Title}" FontSize="16" FontWeight="Bold" Foreground="Navy"></Label>
                             </StackPanel>
                             <!--Drugi wiersz-->
-                            <TextBlock Grid.Row="1" Text="{Binding Description}" TextWrapping="Wrap" FontStyle="Italic" Foreground="DarkGray"></TextBlock>
+                            <TextBlock Grid.Row="1" Text="{Binding Director}" TextWrapping="Wrap" FontStyle="Italic" Foreground="DarkGray"></TextBlock>
                             <!--Trzeci wiersz-->
                             <StackPanel Grid.Row="2" Orientation="Horizontal">
                                 <TextBlock Foreground="DarkGreen" Margin="0 0 10 0">

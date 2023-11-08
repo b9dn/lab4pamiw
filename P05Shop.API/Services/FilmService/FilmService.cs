@@ -64,7 +64,7 @@ namespace P05Shop.API.Services.FilmService {
                 _dataContext.Films.Attach(filmToEdit);
 
                 filmToEdit.Title = film.Title;
-                filmToEdit.Description = film.Description;
+                filmToEdit.Director = film.Director;
                 filmToEdit.Price = film.Price;
                 filmToEdit.Barcode = film.Barcode;
                 filmToEdit.ReleaseDate = film.ReleaseDate;

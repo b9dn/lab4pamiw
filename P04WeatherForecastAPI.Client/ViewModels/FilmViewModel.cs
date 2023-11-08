@@ -47,7 +47,7 @@ namespace P04WeatherForecastAPI.Client.ViewModels {
         public async Task CreateFilm() {
             var newFilm = new Film() {
                 Title = selectedFilm.Title,
-                Description = selectedFilm.Description,
+                Director = selectedFilm.Director,
                 Barcode = selectedFilm.Barcode,
                 Price = selectedFilm.Price,
                 ReleaseDate = selectedFilm.ReleaseDate,
@@ -64,7 +64,7 @@ namespace P04WeatherForecastAPI.Client.ViewModels {
             var filmToUpdate = new Film() {
                 Id = selectedFilm.Id,
                 Title = selectedFilm.Title,
-                Description = selectedFilm.Description,
+                Director = selectedFilm.Director,
                 Barcode = selectedFilm.Barcode,
                 Price = selectedFilm.Price,
                 ReleaseDate = selectedFilm.ReleaseDate,

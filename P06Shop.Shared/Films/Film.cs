@@ -12,7 +12,7 @@ namespace P06.Shared.Films
 
         public string Title { get; set; }
 
-        public string Description { get; set; } // director
+        public string Director { get; set; }
 
         public string Barcode { get; set; }
 
